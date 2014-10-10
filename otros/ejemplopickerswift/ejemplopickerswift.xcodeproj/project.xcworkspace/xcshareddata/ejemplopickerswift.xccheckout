@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F322D76D-00FD-499C-877B-37E898F07E0D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ejemplopickerswift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DB216D6DD6231FFB9EC5D2DDED0358DAB3467E94</key>
+		<string>https://github.com/rud0lph09/proyecto_brujula.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>otros/ejemplopickerswift/ejemplopickerswift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DB216D6DD6231FFB9EC5D2DDED0358DAB3467E94</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rud0lph09/proyecto_brujula.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DB216D6DD6231FFB9EC5D2DDED0358DAB3467E94</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DB216D6DD6231FFB9EC5D2DDED0358DAB3467E94</string>
+			<key>IDESourceControlWCCName</key>
+			<string>proyecto_brujula</string>
+		</dict>
+	</array>
+</dict>
+</plist>

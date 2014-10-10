@@ -59,6 +59,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="PumaBus" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="ubicacion" destination="SWy-bt-ng3" id="YNg-9R-zk1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>

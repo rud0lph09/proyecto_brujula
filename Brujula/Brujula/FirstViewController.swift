@@ -9,10 +9,15 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    
+    var datos = ["Hola"]
 
+    @IBOutlet weak var ubicacion: UIPickerView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
