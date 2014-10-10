@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  ejemplopickerswift
 //
-//  Created by Rodolfo Castillo on 10/10/14.
+//  Created by Saic dev on 10/10/14.
 //  Copyright (c) 2014 Rodolfo Castillo. All rights reserved.
 //
 
@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate {
     
-    var datos = ["Rodolfo", "Brenda", "Luisillo", "Yisus", "Oscar"]
+    var datos = ["Rodolfo", "Brenda", "Luisillo", "Yisus", "Oscar", "Juan Pa"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
