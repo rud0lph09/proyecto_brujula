@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate {
     
-    var datos = ["Rodolfo", "Brenda", "Luisillo", "Yisus", "Oscar", "Juan Pa"]
+    var datos = ["Rodolfo", "Brenda", "Luisillo", "Yisus", "Oscar", "Juan Pa", "Joss"]
 
     override func viewDidLoad() {
         super.viewDidLoad()

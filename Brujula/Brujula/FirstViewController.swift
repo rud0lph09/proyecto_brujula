@@ -8,9 +8,9 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController  {
     
-    var datos = ["Hola"]
+    
 
     @IBOutlet weak var ubicacion: UIPickerView!
     override func viewDidLoad() {

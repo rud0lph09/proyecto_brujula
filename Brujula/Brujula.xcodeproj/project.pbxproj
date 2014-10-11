@@ -15,7 +15,7 @@
 		F7DC952B19E4A79C0098780C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DC952919E4A79C0098780C /* LaunchScreen.xib */; };
 		F7DC953719E4A79C0098780C /* BrujulaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DC953619E4A79C0098780C /* BrujulaTests.swift */; };
 		F7DC954119E4AA010098780C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DC954019E4AA010098780C /* MapKit.framework */; };
-		F7DC955419E4B1600098780C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DC955319E4B1600098780C /* TableViewController.swift */; };
+		F7F1334A19E92509003ADDA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F1334919E92509003ADDA8 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		F7DC953519E4A79C0098780C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7DC953619E4A79C0098780C /* BrujulaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrujulaTests.swift; sourceTree = "<group>"; };
 		F7DC954019E4AA010098780C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		F7DC955319E4B1600098780C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F7F1334919E92509003ADDA8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +87,8 @@
 			children = (
 				F7DC951E19E4A79C0098780C /* AppDelegate.swift */,
 				F7DC952019E4A79C0098780C /* FirstViewController.swift */,
-				F7DC955319E4B1600098780C /* TableViewController.swift */,
 				F7DC952219E4A79C0098780C /* SecondViewController.swift */,
+				F7F1334919E92509003ADDA8 /* ViewController.swift */,
 				F7DC952419E4A79C0098780C /* Main.storyboard */,
 				F7DC952719E4A79C0098780C /* Images.xcassets */,
 				F7DC952919E4A79C0098780C /* LaunchScreen.xib */,
@@ -229,8 +229,8 @@
 			files = (
 				F7DC952319E4A79C0098780C /* SecondViewController.swift in Sources */,
 				F7DC951F19E4A79C0098780C /* AppDelegate.swift in Sources */,
+				F7F1334A19E92509003ADDA8 /* ViewController.swift in Sources */,
 				F7DC952119E4A79C0098780C /* FirstViewController.swift in Sources */,
-				F7DC955419E4B1600098780C /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +422,7 @@
 				F7DC953C19E4A79C0098780C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7DC953D19E4A79C0098780C /* Build configuration list for PBXNativeTarget "BrujulaTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +431,7 @@
 				F7DC953F19E4A79C0098780C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
