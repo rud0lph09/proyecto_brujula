@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7E4749E19F6BD8C00EB2F42 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E4749D19F6BD8C00EB2F42 /* SecondViewController.swift */; };
 		F7F1332619E84BED003ADDA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F1332519E84BED003ADDA8 /* AppDelegate.swift */; };
 		F7F1332819E84BED003ADDA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F1332719E84BED003ADDA8 /* ViewController.swift */; };
 		F7F1332B19E84BED003ADDA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F1332919E84BED003ADDA8 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7E4749D19F6BD8C00EB2F42 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F7F1332019E84BED003ADDA8 /* ejemplopickerswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ejemplopickerswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F1332419E84BED003ADDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7F1332519E84BED003ADDA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				F7F1332519E84BED003ADDA8 /* AppDelegate.swift */,
 				F7F1332719E84BED003ADDA8 /* ViewController.swift */,
 				F7F1332919E84BED003ADDA8 /* Main.storyboard */,
+				F7E4749D19F6BD8C00EB2F42 /* SecondViewController.swift */,
 				F7F1332C19E84BED003ADDA8 /* Images.xcassets */,
 				F7F1332E19E84BED003ADDA8 /* LaunchScreen.xib */,
 				F7F1332319E84BED003ADDA8 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E4749E19F6BD8C00EB2F42 /* SecondViewController.swift in Sources */,
 				F7F1332819E84BED003ADDA8 /* ViewController.swift in Sources */,
 				F7F1332619E84BED003ADDA8 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				F7F1334119E84BED003ADDA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7F1334219E84BED003ADDA8 /* Build configuration list for PBXNativeTarget "ejemplopickerswiftTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				F7F1334419E84BED003ADDA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

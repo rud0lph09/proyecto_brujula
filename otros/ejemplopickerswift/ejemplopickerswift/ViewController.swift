@@ -10,10 +10,13 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate {
     
+    
+    @IBOutlet weak var Display: UILabel!
     var datos = ["Rodolfo", "Brenda", "Luisillo", "Yisus", "Oscar", "Juan Pa", "Joss"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Display.text = datos[0]
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -32,6 +35,14 @@ class ViewController: UIViewController, UIPickerViewDelegate {
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String!{//con este le asignamos un titulo a los elementos
         return datos[row]
     }
+    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
+        var dato = datos[row]
+        Display.text = dato
+        //var n : SecondViewController = dato
+        //como podemos hacer este segue
+    }
+    
+
 
 }
 //saludos luisito
