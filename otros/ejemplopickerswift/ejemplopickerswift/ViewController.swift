@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate {
     
-    
+    var dato: String = ""
     @IBOutlet weak var Display: UILabel!
     var datos = ["Rodolfo", "Brenda", "Luisillo", "Yisus", "Oscar", "Juan Pa", "Joss"]
 
@@ -35,11 +35,18 @@ class ViewController: UIViewController, UIPickerViewDelegate {
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String!{//con este le asignamos un titulo a los elementos
         return datos[row]
     }
-    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
+    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) ->String!{
         var dato = datos[row]
         Display.text = dato
         //var n : SecondViewController = dato
         //como podemos hacer este segue
+        return dato
+    }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if(segue.identifier == segue){
+        let vc = segue.destinationViewController as SecondViewController
+        vc.n = dato
+        }
     }
     
 
